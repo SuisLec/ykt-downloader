@@ -1,0 +1,12 @@
+.DS_Store
+node_modules/
+/tmp/
+/work/bundle/
+/work/research/
+/work/src/ext/lib/
+/work/src/pdf-lib.min.js
+/work/test/browser-cache/
+/work/test/pdf-check/
+/outputs/ykt-downloader/
+/outputs/*.user.js
+/outputs/*.zip

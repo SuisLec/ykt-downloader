@@ -1,0 +1,11 @@
+// ==UserScript==
+// @name         雨课堂课件批量下载
+// @namespace    ykt-courseware-export
+// @version      1.2.1
+// @description  按课程和章节选择课件，每个课件单独导出为 PDF，可选版式和保存位置。
+// @match        https://*.yuketang.cn/v2/web/*
+// @run-at       document-idle
+// @inject-into  content
+// @grant        none
+// @noframes
+// ==/UserScript==

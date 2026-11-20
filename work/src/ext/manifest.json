@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "雨课堂课件批量下载",
+  "version": "1.2.1",
+  "description": "按课程和章节选择课件，每个课件单独导出为 PDF，可选版式和保存位置。",
+  "content_scripts": [
+    {
+      "matches": ["https://*.yuketang.cn/v2/web/*"],
+      "js": ["lib/pdf-lib.min.js", "lib/jszip.min.js", "api.js", "pdf.js", "download.js", "panel.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
